@@ -4,7 +4,6 @@ module.exports = function (number) {
     .replace(/-/g, '')
     .replace(/ /g, '');
 
-  console.log(number);
   if (number.length == 10) {
     var total = 0;
     for (var i = 0; i <= 8; i++) {
